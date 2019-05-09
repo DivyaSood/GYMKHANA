@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AD57B636DE3B5EB53E7A68 /* Pods_GYM_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87AF8CF7015D42DB8797401 /* Pods_GYM_APP.framework */; };
 		4B4708032283F72700A8408E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4708022283F72700A8408E /* AppDelegate.swift */; };
 		4B4708052283F72700A8408E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4708042283F72700A8408E /* ViewController.swift */; };
 		4B4708082283F72700A8408E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4708062283F72700A8408E /* Main.storyboard */; };
 		4B47080A2283F72B00A8408E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4708092283F72B00A8408E /* Assets.xcassets */; };
 		4B47080D2283F72B00A8408E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B47080B2283F72B00A8408E /* LaunchScreen.storyboard */; };
+		4B4708152283FBF000A8408E /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4708142283FBF000A8408E /* CustomMarkerView.swift */; };
+		4B4708172283FC8B00A8408E /* GymPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4708162283FC8B00A8408E /* GymPreviewView.swift */; };
+		4B4708192284073B00A8408E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4708182284073B00A8408E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		4B4708092283F72B00A8408E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B47080C2283F72B00A8408E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B47080E2283F72B00A8408E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4708142283FBF000A8408E /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		4B4708162283FC8B00A8408E /* GymPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPreviewView.swift; sourceTree = "<group>"; };
+		4B4708182284073B00A8408E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7159E20CCD5E0909D2C15F65 /* Pods-GYM_APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYM_APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYM_APP/Pods-GYM_APP.release.xcconfig"; sourceTree = "<group>"; };
+		AD079EEE63EE87146283DE1A /* Pods-GYM_APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYM_APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYM_APP/Pods-GYM_APP.debug.xcconfig"; sourceTree = "<group>"; };
+		D87AF8CF7015D42DB8797401 /* Pods_GYM_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYM_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AD57B636DE3B5EB53E7A68 /* Pods_GYM_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40CACF87EED5653FCD2FC07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D87AF8CF7015D42DB8797401 /* Pods_GYM_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B4707F62283F72700A8408E = {
 			isa = PBXGroup;
 			children = (
 				4B4708012283F72700A8408E /* GYM_APP */,
 				4B4708002283F72700A8408E /* Products */,
+				D9B2C91DD29F967F2D11FA4C /* Pods */,
+				40CACF87EED5653FCD2FC07F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				4B4708022283F72700A8408E /* AppDelegate.swift */,
+				4B4708142283FBF000A8408E /* CustomMarkerView.swift */,
+				4B4708162283FC8B00A8408E /* GymPreviewView.swift */,
+				4B4708182284073B00A8408E /* DetailViewController.swift */,
 				4B4708042283F72700A8408E /* ViewController.swift */,
 				4B4708062283F72700A8408E /* Main.storyboard */,
 				4B4708092283F72B00A8408E /* Assets.xcassets */,
@@ -64,6 +88,15 @@
 			path = GYM_APP;
 			sourceTree = "<group>";
 		};
+		D9B2C91DD29F967F2D11FA4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD079EEE63EE87146283DE1A /* Pods-GYM_APP.debug.xcconfig */,
+				7159E20CCD5E0909D2C15F65 /* Pods-GYM_APP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B4708112283F72B00A8408E /* Build configuration list for PBXNativeTarget "GYM_APP" */;
 			buildPhases = (
+				B8DD63E1F3BA627C72BC99F8 /* [CP] Check Pods Manifest.lock */,
 				4B4707FB2283F72700A8408E /* Sources */,
 				4B4707FC2283F72700A8408E /* Frameworks */,
 				4B4707FD2283F72700A8408E /* Resources */,
+				A3E93FC854AF9CB76C02A9A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +165,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3E93FC854AF9CB76C02A9A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GYM_APP/Pods-GYM_APP-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GYM_APP/Pods-GYM_APP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DD63E1F3BA627C72BC99F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYM_APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B4707FB2283F72700A8408E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4B4708052283F72700A8408E /* ViewController.swift in Sources */,
+				4B4708172283FC8B00A8408E /* GymPreviewView.swift in Sources */,
+				4B4708192284073B00A8408E /* DetailViewController.swift in Sources */,
 				4B4708032283F72700A8408E /* AppDelegate.swift in Sources */,
+				4B4708152283FBF000A8408E /* CustomMarkerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +369,7 @@
 		};
 		4B4708122283F72B00A8408E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD079EEE63EE87146283DE1A /* Pods-GYM_APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +387,7 @@
 		};
 		4B4708132283F72B00A8408E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7159E20CCD5E0909D2C15F65 /* Pods-GYM_APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
