@@ -10,7 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var passedData = (title: "Name", img: #imageLiteral(resourceName: "Image1"), price: 0)
+    var passedData = (title: "Name", img: #imageLiteral(resourceName: "Image3"), price: 0)
     
 
     override func viewDidLoad() {
