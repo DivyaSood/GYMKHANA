@@ -43,8 +43,8 @@ GymKhana is an iOS mobile application which publishes crowd-sourced reviews abou
 ### 2. Screen Archetypes
 
 
-<img src='https://user-images.githubusercontent.com/31952007/57495710-4592aa00-7284-11e9-9ecc-3ef995d46b3e.jpeg' width='100'/>
-<img src='https://i.imgur.com/pEqo1ao.jpg' title='Second Screen' width='' alt='Second Screen' />
+<img src='https://user-images.githubusercontent.com/31952007/57495710-4592aa00-7284-11e9-9ecc-3ef995d46b3e.jpeg' title='First Screen width='500'/>
+<img src='https://user-images.githubusercontent.com/31952007/57495860-e4b7a180-7284-11e9-942a-31e162fe3f8d.jpeg' title='Second Screen' width='500' alt='Second Screen' />
    
 
 ### 3. Navigation
