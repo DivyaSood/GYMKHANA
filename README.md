@@ -28,10 +28,10 @@ GymKhana is an iOS mobile application which publishes crowd-sourced reviews abou
 
 **Required Must-have Stories**
 
-- [ ] User can see the launch screen with Google Map View
-- [ ] User can see the nearby Gyms with marker
-- [ ] User can search the gyms in respective location using search bar
-- [ ] User can see the detailed description of the gym services
+- [X] User can see the launch screen with Google Map View
+- [X] User can see the nearby Gyms with marker
+- [X] User can search the gyms in respective location using search bar
+- [X] User can see the detailed description of the gym services
 - [ ] User can see login screen when needs to book gym services
 - [ ] User successfully logins
 - [ ] Booking success
