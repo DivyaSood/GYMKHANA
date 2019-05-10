@@ -61,4 +61,4 @@ GymKhana is an iOS mobile application which publishes crowd-sourced reviews abou
 
 ## Networking
 **Google Maps APIs**
-## Base URL: <https://developers.google.com/maps/documentation/ios-sdk/start>
+** Base URL: <https://developers.google.com/maps/documentation/ios-sdk/start>
