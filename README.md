@@ -15,12 +15,12 @@ Final Project
 GymKhana is an iOS mobile application which publishes crowd-sourced reviews about gyms as well as online reservation service for gyms for limited days.
 
 ### App Evaluation
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Gyming
+- **Mobile:** This app would be primarily developed for mobile. 
+- **Story:** Users can locate near by gyms and discounted services provided by them. And let them also write the reviews. 
+- **Market:** Any gym enthusiastic individual could choose to use this app.
+- **Habit:** This app could be used more often when people travel and wanted to continue their excersise routine. 
+- **Scope:** First we would start with pairing gyms near by locations in town based on their services and the price that they can offer to members, then we could launch later outside the city after success in town. 
 
 ## Product Spec
 
@@ -52,17 +52,13 @@ GymKhana is an iOS mobile application which publishes crowd-sourced reviews abou
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
-__TODO__
+**Tab Navigation** Serach bar to serach for near by gym
 
-**Flow Navigation** (Screen to Screen)
-__TODO__
 
-## Wireframes
-__TODO__
+
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+
 ## Networking
+**Google Maps APIs**
+Base URL: <https://developers.google.com/maps/documentation/ios-sdk/start>
